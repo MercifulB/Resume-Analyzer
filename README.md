@@ -23,9 +23,6 @@ This Resume Analyzer is a web application that allows users to analyze resumes a
 3. Run the app:
    Type the following in the terminal:
    - python app.py
-   - 
- 
-
 
 
 # Approach and Tools Used

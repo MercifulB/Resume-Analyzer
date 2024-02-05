@@ -10,7 +10,7 @@ This Resume Analyzer is a web application that allows users to analyze resumes a
 3. npm (Node Package Manager) installed
 
 # Installation
-1. Clone the repository:
+1. Clone the repository and download:
    - git clone https://github.com/MercifulB/Resume-Analyzer.git
 
 2. Install dependencies:
@@ -24,8 +24,15 @@ This Resume Analyzer is a web application that allows users to analyze resumes a
    Type the following in the terminal:
    - python app.py
 
+# Approach
+To tackle this project I started by simple front end HTML/JS/CSS with node.js backend to create a simple UI for uploading resume text
+and a job desc. I then used Javascript to parse over the PDF if it was uploaded taking advantage of pdfParse and 
+express-fileupload from the express.js framework. Next, I used the Flask Python backend framework to create a Flask app and
+serve frontend files. I used the spaCy Natural Language Processing library to compare the resume and job desc. text and return 
+a similarity score and comparing smilar common nouns. To extract text from the PDF on the server side I used the PyMuPDF Python 
+library. 
 
-# Approach and Tools Used
+# Tools Used
 # Frontend:
 - The frontend is implemented using:
   - HTML

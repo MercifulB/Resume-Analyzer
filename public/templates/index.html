@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="my_profile.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adanomad Resume Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Adanomad Resume Analyzer</h1>
+        <div class="button-container">
+            <input type="file" id="inpFile">
+            <button type="button" id="btnUpload">Extract</button>
+            <button type="button" id="btnCompare">Compare</button>
+        </div>
+        <div class="result-container">
+            <textarea id="jobDescription" placeholder="Paste job description here..."></textarea>
+            <textarea id="resultText" placeholder="Upload PDF or enter resume content here..."></textarea>
+            <div id="commonSkillsContainer"></div> <!-- Container for common skills -->
+            <div id="frequentNounsContainer"></div> <!-- Container for frequent nouns -->
+        </div>
+
+    
+    </div>
+    <footer><div class="by-mercy" data-period="2000" style="font-family:'Courier New', monospace" data-type='[ "Created By Merciful With ♥" ]'>
+        <span class="wrap"></span><span class="cursor">|</span>
+    </div>
+    </footer>
+
+    <script src="blink.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

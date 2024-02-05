@@ -5,16 +5,27 @@ This Resume Analyzer is a web application that allows users to analyze resumes a
 # Instructions
 
 # Prerequisites
-Node.js: Ensure you have Node.js installed. You can download it from nodejs.org.
+1. Python installed (version 3.6 or higher)
+2. Node.js installed
+3. npm (Node Package Manager) installed
 
-
-Installation
+# Installation
+1. Clone the repository:
+   - git clone https://github.com/MercifulB/Resume-Analyzer.git
+2. Navigate to the project directory:
+   - cd resume-analyzer
+3. Install dependencies:
+   - npm install
+4. 
 
 
 # Approach and Tools Used
 # Frontend:
-The frontend is a simple HTML/CSS/JavaScript application.
-It uses the Fetch API to communicate with the backend.
+- The frontend is implemented using:
+  - HTML
+  - CSS
+  - JavaScript
+- It uses the Fetch API to communicate with the backend.
 
 # Backend:
 The backend is implemented using:

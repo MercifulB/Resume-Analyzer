@@ -18,9 +18,9 @@ It uses the Fetch API to communicate with the backend.
 
 # Backend:
 The backend is implemented using:
-Flask (Python) for the backend server
-spaCy (Python) a library for natural language processing
-PyMuPDF (Python) for PDF parsing
-Node.js for the frontend server
-Express.js (Node.js) for the API
-pdf-parse (Node.js) for PDF parsing
+- Flask (Python) for the backend server
+- spaCy (Python) a library for natural language processing
+- PyMuPDF (Python) for PDF parsing
+- Node.js for the frontend server
+- Express.js (Node.js) for the API
+- pdf-parse (Node.js) for PDF parsing

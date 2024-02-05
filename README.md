@@ -12,11 +12,20 @@ This Resume Analyzer is a web application that allows users to analyze resumes a
 # Installation
 1. Clone the repository:
    - git clone https://github.com/MercifulB/Resume-Analyzer.git
-2. Navigate to the project directory:
-   - cd resume-analyzer
-3. Install dependencies:
+
+2. Install dependencies:
+   Open a new terminal and intall the following using these lines:
    - npm install
-4. 
+   - pip install Flask spacy
+   - python -m spacy download en_core_web_sm
+   - pip install pymupdf
+
+3. Run the app:
+   Type the following in the terminal:
+   - python app.py
+   - 
+ 
+
 
 
 # Approach and Tools Used

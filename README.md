@@ -50,3 +50,6 @@ The backend is implemented using:
 - Node.js for the frontend server
 - Express.js (Node.js) for the API
 - pdf-parse (Node.js) for PDF parsing
+
+# Demo
+https://drive.google.com/file/d/1GuA2Kb6mT4pNOkavWqth9wSUMF89DIvC/view?usp=sharing
